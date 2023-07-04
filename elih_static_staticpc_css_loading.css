@@ -1,0 +1,173 @@
+@keyframes mainInner {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    7% {
+        width: 300px;
+        height: 300px;
+        background: #F55E23;
+    }
+    30% {
+        width: 300px;
+        height: 300px;
+        background: #F7AC14;
+    }
+    35% {
+        width: 200px;
+        height: 200px;
+        background: #F7AC14;
+    }
+    40% {
+        width: 350px;
+        height: 350px;
+        background: #F7AC14;
+    }
+    45% {
+        width: 270px;
+        height: 270px;
+        background: #F7AC14;
+    }
+    50% {
+        width: 500%;
+        height: 500%;
+        background: #A2C31D;
+    }
+    75% {
+        width: 500%;
+        height: 500%;
+        background: #F55E23;
+    }
+    100% {
+        width: 500%;
+        height: 500%;
+        background: transparent;
+    }
+}
+@keyframes doll {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    5% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    30% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    80% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    90% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+@keyframes slogan {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    45% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    55% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    85% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    95% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+@keyframes loadingMain {
+    0% {
+        background: #fff;
+    }
+    85% {
+        background: #fff;
+    }
+    95% {
+        background: transparent;
+    }
+}
+@keyframes bubbles {
+    0% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#floatingbubbles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0;
+    animation: bubbles;
+    animation-duration: 5.5s;
+}
+#srartks{
+    width: 100%;
+    height: 100%;
+  position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: transparent;
+    animation: loadingMain;
+    animation-duration: 5s;
+}
+#srartks-inner{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-radius: 3000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #F7AC14;
+    overflow: hidden;
+    animation: mainInner;
+    animation-duration: 5s;
+}
+#loading-circle{
+    width: 280px;
+    height: 280px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#loading-doll{
+    width: 150px;
+    height: auto;
+    opacity: 0;
+    animation: doll;
+    animation-duration: 5s;
+}
+#loading-slogan{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    bottom:  -30px;
+    opacity: 0;
+    animation: slogan;
+    animation-duration: 5s;
+}
