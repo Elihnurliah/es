@@ -1,0 +1,589 @@
+.content{ width: 1440px;overflow: hidden;margin: 0px auto;}
+.index_ditu{ overflow:hidden; position:relative; margin:60px auto -60px 0px;}
+.d_img{ width:65%; float:left;}
+.d_img h3{ font-size:40px; font-family:Arial; color:#009B96; text-transform:uppercase; font-weight:400; margin-bottom:20px;}
+.d_img h3 span{ color:#009B96; font-weight:bold; font-size:36px; }
+.d_img img{ width:100%;}
+.d_txt{ width:46%; float:right; position:absolute; top:0px; right:0px;}
+.ms_txt{ overflow:hidden; margin:50px 0 0 150px;}
+.ms_txt h3{font-size:18px;color:#009B96;background:url(https://www.wedrinkrx.com/static/staticpc/images/img1.png) no-repeat center left;padding-left:30px;}
+.ms_txt dd{ font-size:16px; line-height:30px; color:#666; margin:15px 0 0 10px;}
+.product-number-info{position:relative;}
+.product-number-info .product-number-inner{ overflow:hidden;margin:0 auto 30px;}
+.product-number-info ul{padding:85px ;0}
+.q{zoom:1;}
+.product-number-info li{float:left;width:30%; box-sizing:border-box;color:#333;padding-top:1px; text-align:center;}
+.product-number-info li:last-child{ width:40%;}
+.product-number-info li:first-child{border:none;}
+.product-number-info li b{font-weight:400;font-size:60px; font-family:Impact; color:#009B96;display:inline-block;position:relative;margin:15px 0 10px;}
+.product-number-info li p{font-size:18px;}
+.product-number-info li b i{font-style:normal;}
+.product-number-info li b sup{position:absolute;font-size:20px;right:-15px;top:-3px;}
+.product-number-info li b em{font-style:normal;font-size:28px;font-weight:100;padding-left:2px;position:relative;top:-4px;}
+
+.product-number-info li.li-5{text-align:right;}
+
+
+
+
+
+/*产品开始*/
+.chanpin .tab-nav{ text-align: center; margin-top: 35px;}
+.chanpin .tab-nav li{ display: inline-block; background: #333; margin:0 10px;}
+.chanpin .tab-nav li a{ display: block; font-size: 16px;  width: 120px; height: 46px;line-height: 46px; text-align: center; color: #fff;}
+.chanpin .tab-nav li.on{ background: #D94A44;}
+.chanpin .tab-nav li.on a{ color: #fff;}
+.chanpin .tab-cont ul.chanpin-ul{ display: none;}
+.chanpin .tab-cont ul.chanpin-ul.on{ display: block;}
+.tit h1{ font-size: 28px; color: #000;text-align: center; padding-bottom: 10px;}
+.tit  p{ background: url(https://www.wedrinkrx.com/static/staticpc/images/tit-bg.png) no-repeat center center; height: 33px; text-align:center; font-size:18px; color: #fff; }
+
+/*浮动*/
+.clear{ clear:both;}
+.fl1 {
+	float:left;
+	display: inline;
+}
+.frr {
+	float:right;
+	display: inline;
+}
+.div_1440{ margin:0 auto;background:url(https://www.wedrinkrx.com/static/staticpc/images/cpbj.png) no-repeat top center; overflow: hidden;width: 100%; height:100%}
+.cpkj{width: 1440px;margin: 0 auto;text-align: center;}
+.cpbti{ width:100%;}
+.cpzuo{ margin-left:20px;}
+.cpzuo span{ font-size:14px; color:#666; font-weight:bold; text-transform:uppercase;}
+.cpzuo p{ color:#009B96; font-size:28px; font-weight:bold; margin:0px 0px 10px;}
+.cpzuo hr{ background:url(https://www.wedrinkrx.com/static/staticpc/images/bg01.png) no-repeat center; width:144px; height:3px; border:none;}
+.cpyou{ margin-right:40px;}
+.cpyou ul li{ float:left; font-size:18px; width:98px; height:35px; cursor:pointer; line-height:35px; color:#333; text-align:center; background-color:#c5c5c5;margin: 15px 8px 0px;}
+.cpyou ul li:hover{ background-color:#e70012; color:#fff;}
+.cpyou ul li.active{ background-color:#009B96;color:#fff;}
+.cpyou ul li a{ color:#FFFFFF}
+.cpcon{ margin-top:0px; }
+.cpcon ul li{ float:left; width:340px; margin:10px;}
+.cpcon ul li .pro_img{ width:340px; height:340px; overflow:hidden;}
+.cpcon ul li .pro_img img{ width:100%;display:inline;-moz-transition: all 1s ease 0s; -ms-transition: all 1s ease 0s; -o-transition: all 1s ease 0s; -webkit-transition: all 18s ease 0s; transition: all 1s ease 0s;}
+.cpcon ul li p{ width:100%; height:40px; color:#fff; background-color:#009B96; line-height:40px; font-size:18px; text-align:center;margin-top: 5px;}
+.cpcon ul li:hover img{moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1);}
+/*.cpcon ul li:hover p{ background-color:#e70012;color:#fff;}*/
+.cpcon .slider-content{ display:none;}
+.cpcon .slider-content.active{ display:block;}
+.ckgd{width:10%;background-color:#009B96;text-align: center;height: 40px;line-height: 40px;font-size: 16px;/*margin-right:55px;*/border-radius:5px;margin-top:20px;    margin: 0 auto;}
+.ckgd li a{ color:#FFFFFF;}
+
+/*产品结束*/
+
+.dianpzs {
+    width: 1440px;
+    margin: 0 auto;
+	margin-top: 20px;
+	/*height:785px;*/
+}
+
+.dianpzs-right {
+/*	flex: 1;
+	margin-left: 70px;*/
+}
+.dianpzs-nav {
+	overflow: hidden;
+}
+.dianpzsi {
+	float: left;
+	width: 116px;
+	height: 40px;
+/*	font-size: 14px;
+	font-family: Source Han Sans CN;*/
+	font-weight: 400;
+	line-height: 40px;
+	text-align: center;
+	color: #18212A;
+	cursor: pointer;
+}
+
+.dianpzsi_active {
+	background-color:#009B96;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.dianpzs-list {
+	overflow: hidden;
+	display: none;
+}
+.dianpzs-list.on {
+	display: block;
+}
+.dianpzsiljie {
+	display: block;
+	float: left;
+	margin-top:20px;
+	margin-right: 1.5%;
+	/*width: 30%;*/
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.dianpzsiljie:hover {
+	/*background-color: #d71d35;
+	box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);*/
+}
+
+.dianpzsiljie:nth-child(3n) {
+	margin-right: 0;
+}
+
+.dianpzsiljieImg {
+	width: 465px;
+
+	height:265px;
+
+}
+
+.dianpzsibti {
+	/*padding: 22px 20px;*/
+	font-size: 18px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	 text-align: center;
+	 background-color:#009B96;
+    height: 40px;
+    line-height: 40px;
+	margin-top: 5px;
+}
+
+/*.dianpzsiljie:hover .dianpzsibti {
+	background-color:#e70012;color:#fff;
+}*/
+
+.clearboth{height:0px;line-height:0px;overflow:hidden;font-size:0px;}
+.container{width:1440px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.di{_display:inline;}
+.fwn{font-weight:normal;}
+.dib{*display:inline;_zoom:1;_display:inline;_font-size:0px;}
+
+.cont1{
+
+	overflow: hidden;
+}
+.cont2{
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/bj2.png) no-repeat center bottom;
+	height: 890px;
+	overflow: hidden;
+}
+.cont3{
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/bj3.png) no-repeat center bottom;
+	height: 780px;
+	overflow: hidden;
+}
+.cont4{
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/bj4.png) no-repeat center bottom;
+	height: 745px;
+	overflow: hidden;
+}
+.cont5{
+    margin-top: -1px;
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/bj5.png) no-repeat center bottom;
+	height: 890px;
+	overflow: hidden;
+}
+.cont6{
+	background: #f2f2f2;
+	height: 890px;
+	overflow: hidden;
+}
+.cont7{
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/bj7.png) no-repeat center bottom;
+	height: 890px;
+	overflow: hidden;
+}
+
+.a3_xg1{
+    margin-top: 72px;
+}
+.a4_xg1{
+    margin-top: 80px;
+}
+.a5_xg1{
+    margin-top: 286px;
+}
+.a6_xg1{
+    margin-top: 120px;
+}
+.a7_xg1{
+    margin-top: 75px;
+}
+
+.xiaogt {
+  /*height: 700px;*/
+  width: 1440px;
+  overflow: hidden;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+/**/
+.habnbb1{
+	position:relative;
+}
+.habnbb1 .text{
+	position: absolute;
+	z-index: 999;
+	left: 20%;
+	top: 26%;
+}
+
+
+.title1 h1{ color:#2c303b;letter-spacing: 5px;}
+.title1 h1 span{ font-size: 25px;letter-spacing: 0;color: #dea660;}
+   
+/*cont4*/
+.jiamzxin{
+	float: right;
+	margin-top:-35px;
+}
+.jiamzxin li{
+	float: left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	color:#2c303b;
+	font:600 16px/40px "siyuanheiti,Arial, Microsoft YaHei";
+	border-radius: 5px;
+}
+.jiamzxin li.cur{
+	background:#dea660;
+	color:#2c303b;
+}
+.cont4 .tttab i{
+  display: block;
+  margin-top: 50px;
+}
+.youshi1{
+	width: 610px;
+	margin: 20px auto 10px;
+}
+.jiamlc1{
+	color: #fff;
+	font:500 14px/27px "siyuanheiti,Arial, Microsoft YaHei";
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/jkahgjk.png) no-repeat left center;
+	padding-left: 55px;
+}
+.jiamlc2{
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/jkahgjk1.png) no-repeat left center;
+	padding-left: 50px;
+}
+.jiamlc2 h2{
+color: #fff;
+	font:500 14px/27px "siyuanheiti,Arial, Microsoft YaHei";
+}
+.jiamlc2 a.more1{
+	display: block;
+	background: #fff;
+	text-align: center;
+	font:500 14px/24px "siyuanheiti,Arial, Microsoft YaHei";
+	color: #009B96;
+	width: 113px;
+	border-radius: 12px;
+}
+.youshi2{
+	height: 500px;
+	    margin-top: 55px;
+}
+.youshizx1,.youshizx1 img{
+	width: 720px;
+	height: 500px;
+}
+.youshizx2{
+   width: 720px;
+	height: 500px;
+	background: #fff;
+	padding: 78px 46px;
+	box-sizing: border-box;
+}
+.bz_title1 h2{
+	color: #009B96;
+	font:600 24px/30px "siyuanheiti,Arial, Microsoft YaHei";
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/xian1.png) no-repeat center bottom;
+	padding-bottom: 28px;
+}
+.bz_title1 h2 span{
+	display: block;
+	color: #999;
+	font:500 14px/30px "siyuanheiti,Arial, Microsoft YaHei";
+	 text-transform: uppercase;
+}
+.youshizx2 .bz_wenzz1{
+   color: #333;
+	font:500 16px/55px "siyuanheiti,Arial, Microsoft YaHei";
+	background: url(https://www.wedrinkrx.com/static/staticpc/images/xian2.png) no-repeat center bottom;
+	padding-bottom: 15px;
+}
+.kaiyzb li{
+	width: 508px;
+}
+.kaiyzb h2 {
+	margin-top: 30px;
+}
+.kaiyzb h2 span{
+  display: inline-block;
+  color: #009B96;
+  font:600 30px/30px "siyuanheiti,Arial, Microsoft YaHei";
+  margin-right: 11px;
+}
+.kaiyzb h2 u{
+	display: inline-block;
+	color: #666;
+  font:500 12px/38px "siyuanheiti,Arial, Microsoft YaHei";
+  text-transform: uppercase;
+      text-decoration: initial;
+      border-top: 1px solid #d1d1d1;
+      width: 50px;
+}
+.kaiyzb li h3{
+	color: #333;
+  font:500 14px/38px "siyuanheiti,Arial, Microsoft YaHei";
+}
+.bz_qhuan1 a{
+	display: inline-block;
+}
+.bz_qhuan1 a.prev{
+	margin-left: -3px;
+}
+
+.jiamys{
+	margin-top: 20px;
+}
+.jiamys li{
+	
+	width: 1440px;
+	text-align: center;
+	height: 500px;
+	margin-top:50px;
+	
+}
+.jiamys li:nth-child(4n){
+	margin-right: 0px;
+}
+.jiamys li a.img1{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.jiamys li a.img1 img{
+	width: 100px;
+	height: 100px;
+}
+.jiamys li h2 a{
+   display: block;
+   color: #fff;
+   font:600 18px/48px "siyuanheiti,Arial, Microsoft YaHei";
+   background: url(https://www.wedrinkrx.com/static/staticpc/images/xian3.png) no-repeat center bottom;
+}
+.jiamys li h3{
+	color: #fff;
+   font:500 14px/22px "siyuanheiti,Arial, Microsoft YaHei";
+   margin-top: 10px;
+}
+.cont4 .container{
+	height: 660px;
+}
+
+
+/*加盟费用标题*/
+.hj_box{ width:100%; margin:25px 0px;}
+.title{ width:100%; text-align:center;}
+.title p{ font-size:33px; color:#333; font-weight:bold; display:block;}
+.title span{ font-size:14px; color:#666; text-transform:uppercase; display:block; margin:5px 0px 5px;}
+.jmzxin { width: 100%; /*height:550px;*/ overflow: hidden; margin: 0 auto; margin-top: 0px;}
+.container-1200 { width: 1440px; margin: 0 auto; }
+.cpgy-title-wrap { width: 100%; height: auto; /*position: absolute;*/ left: 0; }
+.jmzxin .cpgy-title-wrap { }
+.jmzxin .ppwh-title { width: 290px; }
+.tzyyl-biaogqh {/* width: 970px; */height: 90px; /*position: absolute; 230px;*/ left: 0; padding: 0 115px; margin-top: 35px; }
+.biaogqh { width: 299px; height:50px; line-height: 46px; text-align: center; border-radius: 10px; border: 2px solid #318877; background: #fff; color: #318877; font-size: 18px; font-weight: bold; cursor: pointer; }
+.tzyyl-biaogqh .fymx-btn { background: #e70012; color: #fff; border-color: #e70012; margin-left: 21px;}
+.biaogqh-active { }
+.ylfx-btn { border-color: #e70012; color: #e70012; background-color: rgb(255, 217, 232);}
+.ylfx-btn-active { background: #ddbe10; border-color: #ddbe10; color: #ffffff; }
+/*表格*/
+.table-wrap { margin-top: 20px;}
+.biaoge { width: 1440px; height: 296px; margin: 0 auto; border: 2px solid #e70012; border-collapse: collapse; }
+.biaoge tr th { width: 296px; height:50px; background: #ffd9e8; font-weight: bold; font-size: 20px; color: #e70012; border-bottom: 2px solid #e70012; border-right: 2px solid #e70012; text-align: center;}
+.biaoge tr td { width: 297px; height: 40px; background: #fff; border-top: 2px solid #e70012; border-right: 2px solid #e70012; font-size: 18px; color: #e70012; text-align: center; }
+.biaoge tr .cankao { width: 100%; text-align: center; }
+.px-btn-left { margin-left: -40px; }
+.px-btn-right { margin-right: -45px; }
+.pingxuan-btn { display: inline-block; width: 1002px; height: 82px; vertical-align: middle; cursor: pointer; }
+.pingxuan-btn img { display: block; width: 100%; height: 100%; }
+/*第二个表格*/
+.biaoge2 .biaoge { border-color: #e70012; }
+.biaoge2 .biaoge tr th { border-color: #e70012; }
+.biaoge2 .biaoge tr td { border-color: #e70012; }
+.cpgy-title-wrap .ppwh-title { margin: 10px auto 0; border-bottom: 0; }
+.ppwh-title { width: 225px; text-align: center; font-size: 30px; color: #318877; font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid #318877; margin-left: 10px; }
+.ppwh-title b { font-weight: normal; margin: 0 11px; }
+.title-border { border-bottom: 2px solid #318877; }
+.title-border img { display: block; width: 258px; height: 17px; margin: 0 auto -10px; }
+.fl { float: left; display: inline; }
+.fr { float: right; display: inline; /*margin-right: 28px;*/}
+.none { display: none; }
+.layer-wrap-05 .layer-icon { width: 110px; height: 119px; bottom: -15px; left: -20px; }
+.layer-wrap-06 .layer-icon { width: 127px; height: 130px; bottom: -22px; left: -40px; }
+.layer-wrap-06 .layer-title img { width: 345px; height: 66px; }
+.layer-title img { display: block; width: 349px; height: 47px; margin: 0 auto 10px; }
+.t-c { text-align: center; }
+.ypxm-list { width: 462px; height: auto; top: 270px; left: 84px; z-index: 5; background-color: #FFFFFF; filter: progid:DXImageTransform.Microsoft.Shadow(color='#eaf2ef', Direction=135, Strength=12);
+    -moz-box-shadow: 0px 0px 10px 2px #eaf2ef; -webkit-box-shadow: 0px 0px 10px 2px #eaf2ef; box-shadow: 2px 2px 10px 2px #eaf2ef; border: 1px solid #ddd \9; padding: 10px 0; }
+.p-a { position: absolute; }
+
+
+/*---------------------------企业简介开始----------------------------*/
+.qiyjj{ width:680px; height: 430px; /*padding: 15px;*/}
+.qiyjj .title{ /*padding-bottom: 10px;*/ border-bottom: 1px solid #d5d5d5;height: 30px;}
+.qiye .qiyjj h5{ font-size: 25px; line-height: 34px; border-bottom: solid 2px #009B96;color:#009B96;height: 28px;line-height: 20px;background: #fff;/*padding-left: 15px;*/ margin-top:0px;}
+.qiye .qiyjj  h5 span{ font-size: 12px; color: #666;}
+.qiye .qiyjj  a.more{font-size: 16px; line-height: 34px; color: #7a7a7a;}
+.moree{font-size: 16px; line-height: 34px; color: #7a7a7a;}
+.qiye .qiyjj .video_a{ display: block; width: 420px; height: 210px; }
+.qiyjj .about_text p{ display: block;font-size: 16px;line-height: 25px;/*height: 193px;*/overflow:hidden; margin-top: 5px;}
+.ind_a_r { width: 680px; float:right;}
+.ind_a_r .bd{ width: 680px;/*padding: 0 20px;*/}
+.xinwzx{ background: url(https://www.wedrinkrx.com/static/staticpc/images/bg5.png) left bottom no-repeat;    /*min-height: 422px;*/}
+.xinwzx .hd{padding-left: 10px;/*margin-top: 10px;*/margin-bottom: 27px;}
+.xinwzx .bd li{ /*height: 90px; */margin-bottom: 15px;}
+.xinwzx .bd li .pic{ height: 90px;margin-left: 10px; }
+.xinwzx .bd li .pic .img{ display: block; height: 90px;overflow:hidden;}
+.xinwzx .bd li h4 a{ display: block; width: 100%;/*height: 24px;*/     font-size: 18px;font-weight: normal;}
+.xinwzx .bd li p{ display: block;width: 100%;/*height: 35px;*/line-height: 25px;color: #606060;margin: 15px 0;}
+.xinwzx .bd li span{ color: #9c9c9c; float: right;}
+.img img{width: 100%; height: 100%;}
+.ind_title{ width:100%; height:100px;}
+.ind_brand .ind_title{background:url(https://www.wedrinkrx.com/static/staticpc/images/title1.png) center no-repeat;}
+.ind_group .ind_title{ background:url(https://www.wedrinkrx.com/static/staticpc/images/title2.png) center no-repeat;}
+.ind_join .ind_title{background:url(https://www.wedrinkrx.com/static/staticpc/images/title3.png) center no-repeat;    margin-bottom: 0; margin-top:0;}
+.ind_show .ind_title{background:url(https://www.wedrinkrx.com/static/staticpc/images/title4.png) center no-repeat; }
+.xinwzx .ind_title{background:url(https://www.wedrinkrx.com/static/staticpc/images/title5.png) center no-repeat; }
+
+
+.main{
+	margin: 0 auto;
+	width:1440px;      /* 调整全局的宽度 必须是10 的倍数 */
+	 min-width: 1440px;
+	text-align: left;
+	position: relative;
+}
+
+.mainqiye{
+	margin: 0 auto;
+	width:1440px;      /* 调整全局的宽度 必须是10 的倍数 */
+	 min-width: 1440px;
+	text-align: left;
+	position: relative;
+}
+.grid_01 { width:10px  }
+.grid_02 { width:20px  } .grid_03 { width:30px  } .grid_04 { width:40px  } .grid_05 { width:50px  } 
+.grid_06 { width:60px  } .grid_07 { width:70px  } .grid_08 { width:80px  } .grid_09 { width:90px  }
+.grid_10 { width:100px } .grid_11 { width:110px } .grid_12 { width:120px } .grid_13 { width:130px }
+.grid_14 { width:140px } .grid_15 { width:150px } .grid_16 { width:160px } .grid_17 { width:170px }
+.grid_18 { width:180px } .grid_19 { width:190px } .grid_20 { width:200px } .grid_21 { width:210px }
+.grid_22 { width:220px } .grid_23 { width:110px } .grid_24 { width:450px } .grid_25 { width:250px }
+.grid_26 { width:260px } .grid_27 { width:270px } .grid_28 { width:280px } .grid_29 { width:290px }
+.grid_30 { width:300px } .grid_31 { width:310px } .grid_32 { width:320px } .grid_33 { width:330px }
+.grid_34 { width:340px } .grid_35 { width:350px } .grid_36 { width:360px } .grid_37 { width:370px }
+.grid_38 { width:380px } .grid_39 { width:390px } .grid_40 { width:400px } .grid_41 { width:410px }
+.grid_42 { width:420px } .grid_43 { width:430px } .grid_44 { width:440px } .grid_45 { width:450px }
+.grid_46 { width:460px } .grid_47 { width:470px } .grid_48 { width:480px } .grid_49 { width:490px }
+.grid_50 { width:500px } .grid_51 { width:510px } .grid_52 { width:520px } .grid_53 { width:530px }
+.grid_54 { width:540px } .grid_55 { width:550px } .grid_56 { width:560px } .grid_57 { width:570px }
+.grid_58 { width:580px } .grid_59 { width:590px } .grid_60 { width:600px } .grid_61 { width:610px }
+.grid_62 { width:620px } .grid_63 { width:630px } .grid_64 { width:640px } .grid_65 { width:650px }
+.grid_66 { width:660px } .grid_67 { width:670px } .grid_68 { width:680px } .grid_69 { width:690px }
+.grid_70 { width:700px } .grid_71 { width:710px } .grid_72 { width:720px } .grid_73 { width:730px }
+.grid_74 { width:740px } .grid_75 { width:750px } .grid_76 { width:760px } .grid_77 { width:770px }
+.grid_78 { width:780px } .grid_79 { width:790px } .grid_80 { width:800px } .grid_81 { width:810px }
+.grid_82 { width:820px } .grid_83 { width:830px } .grid_84 { width:840px } .grid_85 { width:850px }
+.grid_86 { width:860px } .grid_87 { width:870px } .grid_88 { width:880px } .grid_89 { width:890px }
+.grid_90 { width:900px } .grid_91 { width:910px } .grid_92 { width:920px } .grid_93 { width:930px }
+.grid_94 { width:940px } .grid_95 { width:950px } .grid_96 { width:960px } .grid_97 { width:970px }
+.grid_98 { width:980px } .grid_99 { width:990px }
+.grid_99 { width:732px }
+.grid_100 { width:240px }
+.grid { width: 100%;} .grid_2_1{ width: 50%;} .grid_3_1{ width: 33.3%;} .grid_4_1{ width:25% }
+.grid_01,.grid_02,.grid_03,.grid_04,.grid_05,.grid_06,.grid_07,.grid_08,.grid_09,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16,.grid_17,.grid_18,.grid_19,.grid_20,.grid_21,.grid_22,.grid_23,.grid_24,.grid_25,.grid_26,.grid_27,.grid_28,.grid_29,.grid_30,.grid_31,.grid_32,.grid_33,.grid_34,.grid_35,.grid_36,.grid_37,.grid_38,.grid_39,.grid_40,.grid_41,.grid_42,.grid_43,.grid_44,.grid_45,.grid_46,.grid_47,.grid_48,.grid_49,.grid_50,.grid_51,.grid_52,.grid_53,.grid_54,.grid_55,.grid_56,.grid_57,.grid_58,.grid_59,.grid_60,.grid_61,.grid_62,.grid_63,.grid_64,.grid_65,.grid_66,.grid_67,.grid_68,.grid_69,.grid_70,.grid_71,.grid_72,.grid_73,.grid_74,.grid_75,.grid_76,.grid_77,.grid_78,.grid_79,.grid_80,.grid_81,.grid_82,.grid_83,.grid_84,.grid_85,.grid_86,.grid_87,.grid_88,.grid_89,.grid_90,.grid_91,.grid_92,.grid_93,.grid_94,.grid_95,.grid_96,.grid_97,.grid_98,.grid_99,.grid_100,.grid,.grid_2_1,.grid_3_1,.grid_4_1{ float: left; text-align: left;}
+
+/* float */
+.floatN{ float: none}
+.floatL{ float: left}
+.floatR{ float: right}
+
+/* tab   选项卡样式  
+--------------------------------------------------------------------*/
+.tab {
+	width: 100%;
+}
+.tab .hd {
+	height: 30px;
+	height: 30px;
+	border-bottom: solid 1px #e1e1e1;
+	margin-bottom: 10px;
+	font-size: 16px;
+	_height: 30px;
+	_position: relative;
+	margin-top:0;
+}
+.tab .hd ul {
+	_width: 100%;
+	_height: 30px;
+	_position: absolute;
+	_left: 0px;
+	_top: 0px;
+}
+.tab .hd ul li {
+	float: left;
+	padding: 0 10px;
+	cursor: pointer;
+	font-size:25px;
+}
+.tab .hd ul li{
+	white-space: nowrap;
+	padding-left: 0px;
+	padding-right: 15px;
+	height: 29px;
+	line-height: 28px;
+	display: block;
+	text-align: center;
+	border-bottom: none;
+	border-left: none;
+	color:#009B96;
+	_display: inline-block;
+	font-weight: bold;
+}
+.tab .hd ul li.on {
+	border-bottom: solid 2px #009B96;
+	color: #009B96;
+	height: 28px;
+	line-height: 26px;
+	background: #fff;
+	    margin-left:-7px;
+		margin-right: 20px;
+}
+.tab .bd ul {
+	zoom: 1;
+}
+.tab .bd li {
+	line-height: 24px;
+}
+.tab .bd li .date {
+	float: right;
+	color: #999;
+}
+
+.mb30 { margin-bottom: 30px}
+.mt30 { margin-top: 30px}
