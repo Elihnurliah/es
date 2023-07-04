@@ -1,0 +1,17 @@
+.chazzcp { background-image: url(../images/cpbj.png); background-repeat: no-repeat; background-size: 100% auto; background-position: center bottom; }
+.chazzcp .chazzcpkuang { height: 3.5rem;}
+.chazzcp .pongetitle { text-align: center; padding-top: 0.51042rem; padding-bottom: 0.52083rem; }
+.chazzcp .chazzcpkuang { position: relative; }
+.chazzcp .chazzcpkuang .bgimg { position: absolute; left: 0; right: 0; top: 1.04167rem; width: 2.76042rem; height: 2.76042rem; margin-left: auto; margin-right: auto; }
+.chazzcp .chazzcptup { height:3.25rem; }
+.chazzcp .chazzcptup .chazzcptupkj { -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; }
+.chazzcp .chazzcptup .chazzcptupkjlj { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+.chazzcp .chazzcptupkjlj.chazzcptupkjlj-active a .img, .chazzcp .chazzcptupkjlj.chazzcptupkjlj-duplicate-active a .img { width: 2.55208rem; height: 2.55208rem; }
+.chazzcp .chazzcptupkjlj.chazzcptupkjlj-active a .desc, .chazzcp .chazzcptupkjlj.chazzcptupkjlj-duplicate-active a .desc { opacity: 1; margin-bottom: 0.15625rem; }
+.chazzcp .chazzcptupkjlj a { display: block; text-align: center; }
+.chazzcp .chazzcptupkjlj a .title { color: #000; padding-bottom: 0.07813rem; font-size:25px }
+.chazzcp .chazzcptupkjlj a .desc { color: #000; margin-bottom: 0rem; opacity: 0; -webkit-transition: 0.5s ease all; transition: 0.5s ease all; }
+.chazzcp .chazzcptupkjlj a .img { width: 1.45833rem; height: 1.45833rem; margin-left: auto; -webkit-transition: 0.5s ease all; transition: 0.5s ease all; margin-right: auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+.chazzcp .chazzcptupkjlj a .img img { width: 100%; }
+.chazzcp .chazzcpjw { display: none; }
+.gdtp{ max-width: 100%; }

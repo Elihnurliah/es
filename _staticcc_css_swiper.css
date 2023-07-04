@@ -1,0 +1,206 @@
+/**
+ * Swiper 4.5.0
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * http://www.idangero.us/swiper/
+ *
+ * Copyright 2014-2019 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: February 22, 2019
+ */
+ .chazzcptup {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+  }
+  .chazzcptup-no-flexbox .chazzcptupkjlj {
+    float: left;
+  }
+  .chazzcptup-vertical > .chazzcptupkj {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .chazzcptupkj {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  .chazzcptup-android .chazzcptupkjlj,
+  .chazzcptupkj {
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+  }
+  .chazzcptup-multirow > .chazzcptupkj {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .chazzcptup-free-mode > .chazzcptupkj {
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+  }
+  .chazzcptupkjlj {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .chazzcptupkjlj-invisible-blank {
+    visibility: hidden;
+  }
+  /* Auto Height */
+  .chazzcptup-autoheight,
+  .chazzcptup-autoheight .chazzcptupkjlj {
+    height: auto;
+  }
+  .chazzcptup-autoheight .chazzcptupkj {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-transition-property: height, -webkit-transform;
+    transition-property: height, -webkit-transform;
+    -o-transition-property: transform, height;
+    transition-property: transform, height;
+    transition-property: transform, height, -webkit-transform;
+  }
+ 
+ 
+  /* a11y */
+  .chazzcptup .swiper-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+  }
+  .chazzcptup-fade.chazzcptup-free-mode .chazzcptupkjlj {
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .chazzcptup-fade .chazzcptupkjlj {
+    pointer-events: none;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+  }
+  .chazzcptup-fade .chazzcptupkjlj .chazzcptupkjlj {
+    pointer-events: none;
+  }
+  .chazzcptup-fade .chazzcptupkjlj-active,
+  .chazzcptup-fade .chazzcptupkjlj-active .chazzcptupkjlj-active {
+    pointer-events: auto;
+  }
+  .chazzcptup-cube {
+    overflow: visible;
+  }
+  .chazzcptup-cube .chazzcptupkjlj {
+    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 1;
+    visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 100%;
+    height: 100%;
+  }
+  .chazzcptup-cube .chazzcptupkjlj .chazzcptupkjlj {
+    pointer-events: none;
+  }
+  .chazzcptup-cube.chazzcptup-rtl .chazzcptupkjlj {
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+  }
+  .chazzcptup-cube .chazzcptupkjlj-active,
+  .chazzcptup-cube .chazzcptupkjlj-active .chazzcptupkjlj-active {
+    pointer-events: auto;
+  }
+  .chazzcptup-cube .chazzcptupkjlj-active,
+  .chazzcptup-cube .chazzcptupkjlj-next,
+  .chazzcptup-cube .chazzcptupkjlj-prev,
+  .chazzcptup-cube .chazzcptupkjlj-next + .chazzcptupkjlj {
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .chazzcptup-cube .chazzcptupkjlj-shadow-top,
+  .chazzcptup-cube .chazzcptupkjlj-shadow-bottom,
+  .chazzcptup-cube .chazzcptupkjlj-shadow-left,
+  .chazzcptup-cube .chazzcptupkjlj-shadow-right {
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .chazzcptup-cube .swiper-cube-shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    z-index: 0;
+  }
+  .chazzcptup-flip {
+    overflow: visible;
+  }
+  .chazzcptup-flip .chazzcptupkjlj {
+    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 1;
+  }
+  .chazzcptup-flip .chazzcptupkjlj .chazzcptupkjlj {
+    pointer-events: none;
+  }
+  .chazzcptup-flip .chazzcptupkjlj-active,
+  .chazzcptup-flip .chazzcptupkjlj-active .chazzcptupkjlj-active {
+    pointer-events: auto;
+  }
+  .chazzcptup-flip .chazzcptupkjlj-shadow-top,
+  .chazzcptup-flip .chazzcptupkjlj-shadow-bottom,
+  .chazzcptup-flip .chazzcptupkjlj-shadow-left,
+  .chazzcptup-flip .chazzcptupkjlj-shadow-right {
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .chazzcptup-coverflow .chazzcptupkj {
+    /* Windows 8 IE 10 fix */
+    -ms-perspective: 1440px;
+  }
