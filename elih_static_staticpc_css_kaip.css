@@ -1,0 +1,42 @@
+.logofm{background:#ffffff;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;position: absolute;width: 106px;left: 50%;margin-left: -53px;top: 0;margin-top: -60px;}
+.text-center{ text-align:center;}
+.kaipdh,.statement-wrap{position:fixed;left:0;top:0;width:100%;height:100%;font-size:20px}
+.statement-wrap{z-index:1000}
+.statement-wrap::after{content:"";display:block;position:absolute;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.8);z-index:10}
+.statement-wrap .title{color:#009B96;font-weight:700;text-align:center;margin-bottom:1.3em;font-size: 25px;}
+.statement-wrap .st-btn{display:inline-block;width:160px;height:40px;line-height:40px;color:#fff;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:2px;background-color:#009B96;border-radius:5px; text-align:center;}
+.statement-box{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);background-color:#fff;max-width:870px;border-radius:10px;padding:2.6em 3.3em;z-index:60}
+.statement-box .txt{display:inline-block;font-size: 16px;text-indent: 2em;}
+.statement-box p{ margin-bottom:10px; margin-bottom: 13px;line-height: 23px;color: #847f7f;}
+body.no-scroll,html.no-scroll{overflow-y:hidden}
+@-webkit-keyframes decmove{0%{transform:translateX(0)}
+100%{transform:translateX(120%)}
+
+}@keyframes decmove{0%{transform:translateX(0)}100%{transform:translateX(120%)}
+
+}.wave-ani{position:absolute;background-color:#ffffff;width:100%;height:100%;z-index:100}
+.logohua__box{position:absolute;left:50%;top:30%;text-align:center;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+
+.logohua{display:inline-block;background:url(../images/kf.gif) no-repeat center center;width:200px;height:200px;background-size:contain}
+
+to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}
+
+}@keyframes textInUp{from{opacity:0;-webkit-transform:translate3d(0, 50%, 0);transform:translate3d(0, 50%, 0)}to{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}
+
+}.textInUp{-webkit-animation-name:textInUp;animation-name:textInUp}
+.kaipdh{z-index:1200;pointer-events:none;background-color:#ffffff}
+.kaipdh .dec{position:absolute;left:-50%;bottom:0;width:100%;height:100%;background:url(../assets/images/icon-33.svg) no-repeat center center;background-size:cover;z-index:40;animation:decmove 3.5s 10;transform:translateZ(0)}
+.kaipdhua{position:relative;height:100vh}
+.kaipdhua svg{position:absolute;bottom:-5%}
+.kaipdhua svg use{-webkit-animation:move-forever 3s linear infinite;animation:move-forever 3s linear infinite}
+.kaipdhua .gt-svg{left:0;z-index:20}.kaipdhua .gt-svg use{-webkit-animation-delay:-10s;animation-delay:-10s}
+.kaipdhua .gb-svg{left:0;z-index:60}
+.kaipdhua .gb-svg use{-webkit-animation-delay:-2s;animation-delay:-2s;-webkit-animation-duration:2s;animation-duration:2s}
+.wave-divider .parallax>use{-webkit-animation:move-forever 12s linear infinite;animation:move-forever 12s linear infinite}
+.wave-divider .parallax>use:nth-child(1){-webkit-animation-delay:-2s;animation-delay:-2s}
+.wave-divider .parallax>use:nth-child(2){-webkit-animation-delay:-2s;animation-delay:-2s;-webkit-animation-duration:5s;animation-duration:5s}
+.wave-divider .parallax>use:nth-child(3){-webkit-animation-delay:-4s;animation-delay:-4s;-webkit-animation-duration:3s;animation-duration:3s}
+@-webkit-keyframes move-forever{0%{-webkit-transform:translate(-90px, 0%);transform:translate(-90px, 0%)}
+100%{-webkit-transform:translate(85px, 0%);transform:translate(85px, 0%)}
+}@keyframes move-forever{0%{-webkit-transform:translate(-90px, 0%);transform:translate(-90px, 0%)}
+100%{-webkit-transform:translate(85px, 0%);transform:translate(85px, 0%)}
